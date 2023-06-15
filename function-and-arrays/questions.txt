@@ -107,3 +107,63 @@ Sample Output
 2010
 
 ----------------------------------------------------------------------------------------
+
+Q5) Any base addition
+1. You are given a base b.
+2. You are given two numbers n1 and n2 of base b.
+3. You are required to add the two numbes and print their value in base b.
+
+Input Format
+
+A base b
+A number n1
+A number n2
+
+Output Format
+
+A number representing the sum of n1 and n2 in base b.
+
+
+Any Base Addition
+easy
+  Prev   Next
+
+1. You are given a base b.
+2. You are given two numbers n1 and n2 of base b.
+3. You are required to add the two numbes and print their value in base b.
+
+Input Format
+
+A base b
+A number n1
+A number n2
+
+Output Format
+
+A number representing the sum of n1 and n2 in base b.
+
+Constraints
+
+2 <= b <= 10
+0 <= n1 <= 256
+0 <= n2 <= 256
+
+Sample Input
+
+8
+777
+1
+
+Sample Output
+
+1000
+
+----------------------------------------------------------------------------------------
+
+Q6) Any base subtraction
+1. You are given a base b.
+2. You are given two numbers n1 and n2 of base b.
+3. You are required to subtract n1 from n2 and print the value.
+
+----------------------------------------------------------------------------------------
+
