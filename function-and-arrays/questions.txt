@@ -174,5 +174,57 @@ Q7) Any base multiplication
 
 ----------------------------------------------------------------------------------------
 
-Q8) 
+Q8) Span of an array
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are required to find the span of input. Span is defined as difference of maximum value and minimum value.
 
+----------------------------------------------------------------------------------------
+
+Q9) Find element in an array
+1.You are given a number n, representing the size of array a.
+2.You are given n distinct numbers, representing elements of array a.
+3. You are given another number d.
+4. You are required to check if d number exists in the array a and at what index (0 based). If found print the index, otherwise print -1.
+
+----------------------------------------------------------------------------------------
+
+Q10) Bar chart
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to print a bar chart representing value of arr a.
+
+Input Format
+
+A number n
+n1
+n2
+.. n number of elements
+
+Constraints
+
+1 <= n <= 30
+0 <= n1, n2, .. n elements <= 10
+
+Sample Input
+
+5
+3
+1
+0
+7
+5
+
+Sample Output
+
+			*		
+			*		
+			*	*	
+			*	*	
+*			*	*	
+*			*	*	
+*	*		*	*	
+
+
+
+----------------------------------------------------------------------------------------
