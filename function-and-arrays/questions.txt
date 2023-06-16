@@ -189,7 +189,7 @@ Q9) Find element in an array
 
 ----------------------------------------------------------------------------------------
 
-Q10) Bar chart
+Q10) Bar charQ11t
 1. You are given a number n, representing the size of array a.
 2. You are given n numbers, representing elements of array a.
 3. You are required to print a bar chart representing value of arr a.
@@ -226,5 +226,16 @@ Sample Output
 *	*		*	*	
 
 
+
+----------------------------------------------------------------------------------------
+
+Q11) Sum of two arrays
+1. You are given a number n1, representing the size of array a1.
+2. You are given n1 numbers, representing elements of array a1.
+3. You are given a number n2, representing the size of array a2.
+4. You are given n2 numbers, representing elements of array a2.
+5. The two arrays represent digits of two numbers.
+6. You are required to add the numbers represented by two arrays and print the
+arrays.
 
 ----------------------------------------------------------------------------------------
