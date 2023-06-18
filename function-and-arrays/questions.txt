@@ -423,3 +423,64 @@ sample output
 
 ----------------------------------------------------------------------------------------
 
+Q19) Subsets of an array
+1. You are given a number n, representing the count of elements.
+2. You are given n numbers.
+3. You are required to print all subsets of arr. Each subset should be
+on separate line. For more clarity check out sample input and output.
+
+Constraints
+
+1 <= n <= 10
+0 <= n1, n2, .. n elements <= 10^3
+
+Sample Input
+
+3
+10
+20
+30
+
+Sample Ouput
+
+-	-	-	
+-	-	30	
+-	20	-	
+-	20	30	
+10	-	-	
+10	-	30	
+10	20	-	
+10	20	30
+
+----------------------------------------------------------------------------------------
+
+Q20) Inverted Bar Chart
+1. You are given a number n, representing the size of array a.
+2. You are given n numbers, representing elements of array a.
+3. You are required to print an inverted bar chart representing value of arr a.
+
+Constraints
+
+1 <= n <= 30
+0 <= n1, n2, .. n elements <= 10
+
+Sample Input
+
+5
+3
+1
+0
+7
+5
+
+Sample Output
+
+*	*		*	*	
+*			*	*	
+*			*	*	
+			*	*	
+			*	*	
+			*		
+			*	
+			
+----------------------------------------------------------------------------------------
