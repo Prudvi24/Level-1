@@ -72,3 +72,19 @@ int main(){
 	cout<<"Age of student s1 is "<<s1.getAge()<<", s2 is "<<s2.getAge()<<", and s3 is "<<s3->getAge()<<endl;
 	return 0;
 }
+
+
+/*
+
+Output looks like
+-------------------------------------------
+Check the password before setting the age
+Details of student s1
+Roll number = 11 and Age = 24
+Details of student s2
+Roll number = 12 and Age = 0
+Details of student s3
+Roll number = 13 and Age = 22
+Age of student s1 is 24, s2 is 0, and s3 is 22
+
+*/

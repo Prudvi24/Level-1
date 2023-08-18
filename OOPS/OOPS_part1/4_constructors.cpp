@@ -75,3 +75,17 @@ int main(){
 	Student *s6 = new Student(32,23);
 	return 0;
 }
+
+/*
+
+output looks like
+----------------------------------------
+This is default constructor
+Paramterized 1 constructor called
+Paramterized 2 constructor called
+This is default constructor
+Paramterized 1 constructor called
+Paramterized 2 constructor called
+
+
+*/

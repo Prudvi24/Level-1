@@ -50,3 +50,23 @@ int main(){
 	cout<<"Age of s4 student is: "<<s4->age<<endl;
 	return 0;
 }
+
+
+/*
+output look like
+--------------------------------
+
+Details of s1 student
+Roll Number of s1 is: 100
+Age of s1 student is: 24
+Details of s2 student
+Roll Number of s2 is: 101
+Age of s1 student is: 25
+Details of s3 student
+Roll Number of s3 is: 0
+Age of s3 student is: 0
+Details of s4 student
+Roll Number of s4 is: 102
+Age of s4 student is: 25
+
+*/
