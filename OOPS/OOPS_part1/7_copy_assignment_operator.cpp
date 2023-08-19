@@ -82,6 +82,19 @@ int main(){
 	s5 = *s3;
 
 	s5.display();
+
+	cout<<"-------------------------------"<<endl<<endl;
+	// now we will see the internal working below defined copy assignment operator
+	Student s6 = s1;
+	/*
+			-----------
+	    Student s6;   -
+	                  -----------> Rather tha doing so, it is implemented as Student s6(s1), a copy constructor is called.
+	    s6 = s1		  -
+	        -----------
+	*/
+	cout<<"Copied detials from s1 to s6 student using copy assignmen, but internally copy constructor is called"<<endl;
+	s6.display();
 	return 0;
 }
 
@@ -105,5 +118,9 @@ Roll Number is: 101 and age is: 24
 
 Copied detials from s3 to s5 student using copy assignment operartor
 Roll Number is: 101 and age is: 24
+-------------------------------
+
+Copied detials from s1 to s6 student using copy assignmen, but internally copy constructor is called
+Roll Number is: 100 and age is: 23
 
 */
