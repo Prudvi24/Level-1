@@ -65,3 +65,19 @@ int main(){
 	f1.print();
 	return 0;
 }
+
+/*
+
+Fraction 1: 
+Fraction is: 10 / 2
+-----------------------
+
+Fraction 2: 
+Fraction is: 8 / 4
+-----------------------
+
+Result of addition
+Result before simplication: 56 / 8
+Fraction is: 7 / 1
+
+*/
