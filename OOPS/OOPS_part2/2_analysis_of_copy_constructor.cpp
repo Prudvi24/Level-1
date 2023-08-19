@@ -50,7 +50,7 @@ public:
 
 =========================================================================================================================
 
-							   We have defined our own copy constructor, the default copy constructor will disbaled.
+							   We have defined our own copy constructor, the default copy constructor will be disabled.
 
 							   Our parameter will call the same copy constructor and our copy constructor will the same parameter again and again.
 
