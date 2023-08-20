@@ -1,0 +1,48 @@
+Concepts of OOPS:
+	1. Abstraction
+	2. Encapsulation
+	3. Inheritance
+	4. Polymorphism
+==========================================================================
+
+1. Encapsulation
+----------------
+* Combine data, the function of an entity into a single block or unit
+
+	--------------------
+	-    Data          -     Done
+	--------------------   -----------> Classes 
+	-    Functions     -     using 
+	--------------------
+
+*  we can achieve encapsulation using class in C++.
+
+
+2. Abstraction
+---------------------------------------------
+* Hiding unnecessary data or information from the outside world.
+
+For example:
+	1. Inbuilt sort function in C++.
+		-> sort(a.begin(),a.end());
+		-> Internally how sorting works, we don't care. It is hidden from the user.
+	2. All C++ Standard Template Libraries (STL).
+	
+------------------------------------------------
+Q) How Abstraction is achieved?
+Ans: Using C++ access modifier. 
+Make the variables private to hide the properties from the outside world/end users.
+
+------------------------------------------------
+Q) Why do we use Abstraction and why it is needed?
+
+1st reason
+Ans: End user code should not affect by the change in the code by the programmer.
+
+In sort(), Let's assume internally it is using Bubble sort.
+As a programmer, we change the sort algorithm to quick sort.
+
+As an end-user, using sort doesn't feel the difference between the sort function (whether bubble sort or quick sort).
+
+2nd reason
+The third person can't access the hidden code and create errors.
