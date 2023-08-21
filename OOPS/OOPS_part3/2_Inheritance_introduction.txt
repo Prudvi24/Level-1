@@ -1,0 +1,38 @@
+Inheritance
+---------------------------
+To inherit the properties / characteristics from the parent / ancestors.
+
+Lets say we have two classes
+
+1st class : Car
+	  1. Color
+	  2. maxspeed
+	  3. gears
+
+2nd class : Bicycle
+	  1. color
+	  2. maxspeed
+	  3. peddleType
+	  
+The first two properties are common in above two classes.
+	This is redundancy.
+	Now, we create common class having common properties and inherit when required.
+	
+Main advantage of inheritance : Reusing the code.
+
+==========================================================
+
+We have 3 access modifier
+	1.private
+	2.protected and
+	3.public
+
+private  : Not accessible outside the class
+public   : Accessible by third party.
+
+But sometime, it is required to give someone provision to access the property and some can not access the property.
+
+This can be achieved by "protected".
+
+protected : Accessible only to the child class.
+
