@@ -78,6 +78,21 @@ int frog_jump_tabulation(vector<int>&arr, int n){
 	return dp[n];
 }
 
+int frog_jump_space_optimized(vector<int>&arr, int n){
+	int a = 0, b = 0;
+	int j1 = 0;
+	int j2 = INT_MAX;
+	for(int i=1;i<n;i++){
+		j1 = a + abs(arr[i-1]-arr[i]);
+		if(i>1){
+			j2 = b + abs(arr[i-2]-arr[i]);
+		}
+		b = a;
+		a = min(j1, j2);
+	}
+	return a;
+}
+
 int main(){
 	int n;
 	cin>>n;
@@ -100,7 +115,7 @@ int main(){
 	ans = frog_jump_tabulation(arr,n-1);
 	cout<<ans<<endl;
 	cout<<"------- Space optmized solution --------"<<endl;
-	ans = frog_jump_tabulation(arr,n-1);
+	ans = frog_jump_space_optimized(arr,n);
 	cout<<ans<<endl;
 	return 0;
 }
