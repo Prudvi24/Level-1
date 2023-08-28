@@ -28,18 +28,17 @@ void count_sort(vector<int>&arr, int n){
 
 	// prefix sum
 	for(int i=0;i<nf;i++){
-		if(i==0){
-			freq[i] -= 1;
-		}
-		else{
+		if(i!=0){
 			freq[i] += freq[i-1];
 		}
 	}
+	
 	//display(freq);
 	//sort the array in new array space
 	vector<int>newarr(n,0);
 	for(int i=n-1;i>=0;i--){
 		int idx = freq[arr[i]-min_ele];
+		idx--;
 		newarr[idx] = arr[i];
 		freq[arr[i]-min_ele] -= 1; 
 	}
