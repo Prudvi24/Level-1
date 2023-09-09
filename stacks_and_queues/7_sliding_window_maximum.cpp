@@ -21,27 +21,26 @@ vector<int>greater_element_to_right(vector<int>&arr, int &n){
 		res[i] = st.top();
 		st.push(i);
 	}
-	cout<<"res vector elements: "<<endl;
-	display(res);
+	//cout<<"res vector elements: "<<endl;
+	//display(res);
 	return res;
 }
 
 vector<int>sliding_window_maximum(vector<int>&arr, int &n, int &k){
 	vector<int>getr = greater_element_to_right(arr,n);
-	vector<int>swm(n-k+1,0);
+	vector<int>swm(n-k+1,0); // sliding window maximum
 	for(int i=0;i<swm.size();i++){
-		int pos = i;
+		int pos = i;  //position
 		if(getr[pos]-i>k-1){
 			swm[i] = arr[i];
 			continue;
 		}
-		while(pos!=n && getr[pos]-i<=k-1){
-			cout<<pos<<"-->"<<getr[pos]<<endl;
+		while(pos!=n && getr[pos]-i<=k-1){ // reach till the index <= k-1, if there are any greater element to right
 			swm[i] = arr[getr[pos]];
 			pos = getr[pos];
 		}
 	}
-	cout<<"swm vector elements: "<<endl;
+	//cout<<"swm vector elements: "<<endl;
 	return swm;
 }
 
