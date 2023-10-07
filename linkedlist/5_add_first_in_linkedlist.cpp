@@ -100,6 +100,7 @@ public:
       newnode->next = head;
       head = newnode;
     }
+    size++;
   }
 };
 int main() {
