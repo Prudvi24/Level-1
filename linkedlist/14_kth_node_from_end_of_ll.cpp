@@ -155,7 +155,9 @@ public:
       right--;
     }
   }
-  int kthFromEnd(int k) {
+
+  //code with size calculations
+  int kthFromEnd_withSize(int k) {
     // write your code here
     int soll = 0;
     node *temp = head;
@@ -173,6 +175,23 @@ public:
     }
     return temp->val;
   }
+
+  int kthFromEnd(int k){
+    node *slow = head;
+    node *fast = head;
+
+    for(int i=0;i<k;i++){
+      fast = fast->next;
+    }
+
+    while(fast->next!=nullptr){
+      slow = slow->next;
+      fast = fast->next;
+    }
+
+    return slow->val;
+  }
+
 };
 int main() {
   LinkedList l1;
