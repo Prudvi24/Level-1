@@ -43,6 +43,7 @@ void LevelOrderTraversal(Node *root){
 		for(auto node : front_node->children){
 			q.push(node);
 		}
+		delete front_node;
 	}
 	cout<<"."<<endl;
 }
