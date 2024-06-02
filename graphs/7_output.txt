@@ -1,0 +1,11 @@
+0 - 1
+1 - 0
+2 - 3
+3 - 2
+4 - 5
+4 - 6
+5 - 4
+5 - 6
+6 - 5
+6 - 4
+Possible combination of friends (not from the same club) = 16
